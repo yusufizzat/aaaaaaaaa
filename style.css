@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+/* header */
+.container {
+    background-color: #ffffff;
+}
+
+.container:after {
+    content: "";
+    display: block;
+    clear: both;
+}   
+
+header h1 {
+    float: left;
+    padding: 20px 20px;
+    font-size: 2.5em;
+}
+
+.first {
+    color: #ffb727;
+}
+
+.last {
+    color: #ffb727;
+    font-weight: 20px;
+    margin-left: -8px;
+}
+
+header ul {
+    float: right;   
+}
+
+header ul li {
+    display: inline-block;
+    
+}
+
+header li a {
+    padding: 31px 25px;
+    font-size: 1.5em;
+    display: flex;
+    color: rgb(0, 0, 0);
+}
+
+header li a:hover {
+    color: #ffb727;
+    transition: .1s ease-in-out;
+}
+
+.active {
+    background-color: #ffb727;
+}
+
+.active:hover {
+    color: #ffffff !important;
+}
+/* header end*/
+/* banner */
+.banner {
+    height: 60vh;     
+    background-image: url('../img/banner.jpg');
+    background-size: cover; 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h2 {
+    color: white;
+    z-index: 1;
+    font-size: 40px;
+}
+
+.banner:after {
+    content:'';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 201, 60, 0.4);
+}
+
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    border: 3px solid;
+    padding: 10px;
+}
+
+section div {
+        z-index: 1;
+        border: 5px solid white;
+        padding:6px;   
+}
+/* banner end */
+
+
+
